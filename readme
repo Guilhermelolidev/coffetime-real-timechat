@@ -1,0 +1,13 @@
+- Recursos
+
+http://localhost:3001/api/user -> cria um usuário para acessar o sistema, valida se e-mail é valido e se está duplicado, e envia e-mail de confirmação via nodemailer
+com token de expiração de 1h para segurança.
+
+http://localhost:3001/api/login -> é possivel fazer login com um usuario se email e senha for válido e e-mail estiver confirmado.
+
+* Rotas protegidas pelo token JWT
+* Erros customizados pro cliente
+
+
+-- validações
+testar se token expira em 1 hora.
